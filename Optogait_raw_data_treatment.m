@@ -4,7 +4,6 @@
 %enregistrer des modifications avec une version différente de Excel (ou
 %avec une même version, a vérifier) engendre des modifications dans la
 %structure et va générer des erreurs
-hgf
 main = parseXML('walk.xml');    %reading of the file, following a tree organization. might take some time to compute
 dim_array_row=(size(main(2).Children(6).Children(2).Children,2)-1)/2;  %get the number of rows of the array
 dim_array_col_tot=(size(main(2).Children(6).Children(2).Children(2).Children,2)-1)/2;  %get the number of columns
